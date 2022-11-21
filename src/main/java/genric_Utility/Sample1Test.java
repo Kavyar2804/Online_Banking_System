@@ -16,5 +16,10 @@ public class Sample1Test {
 	{
 		System.out.println("script2");
 	}
+	@Test(groups = "regrssion")
+	public void script3()
+	{
+		System.out.println("script3");
+	}
 
 }
