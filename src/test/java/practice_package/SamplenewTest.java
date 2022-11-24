@@ -2,9 +2,9 @@ package practice_package;
 
 import org.testng.annotations.Test;
 
-public class Samplenew {
+public class SamplenewTest {
 	
-	@Test
+	@Test(groups="smoke")
 	public void script3()
 	{
 		System.out.println("I want Job");
